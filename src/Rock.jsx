@@ -39,7 +39,7 @@ const rock = ()=>{
         setComment("Draw")
     }
     else if (computerPick === 'Scissors') {
-        setYou (prev => prev +1)
+        setYou (prev => prev +2)
         setComment("you win")
     }
 } 
